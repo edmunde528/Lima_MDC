@@ -1,0 +1,61 @@
+Region,Age Group,Total,RLI Total,FreeSchoolMeals,Poverty Rate
+East,Infant,136248,23162,0,0.17
+East,Nursery,226289,38469,356,0.17
+East,Primary School,556221,94558,174865,0.17
+East,Secondary School,369766,62860,112150,0.17
+East,Adult,7928741,1110024,0,0.14
+East Midlands,Infant,98500,19700,0,0.2
+East Midlands,Nursery,165134,33027,412,0.2
+East Midlands,Primary School,412323,82465,159094,0.2
+East Midlands,Secondary School,279985,55997,104633,0.2
+East Midlands,Adult,8046546,1367913,0,0.17
+London,Infant,232224,48767,0,0.21
+London,Nursery,363575,76351,1782,0.21
+London,Primary School,832055,174732,303323,0.21
+London,Secondary School,522987,109827,244034,0.21
+London,Adult,5416615,866658,0,0.16
+North East,Infant,52193,15658,0,0.3
+North East,Nursery,86585,25976,419,0.3
+North East,Primary School,217969,65391,124915,0.3
+North East,Secondary School,149025,44708,80913,0.3
+North East,Adult,5763389,1210312,0,0.21
+North West,Infant,160556,40139,0,0.25
+North West,Nursery,261248,65312,759,0.25
+North West,Primary School,638606,159652,307797,0.25
+North West,Secondary School,431568,107892,199989,0.25
+North West,Adult,4469951,849291,0,0.19
+Northern Ireland,Infant,44792,9854,0,0.22
+Northern Ireland,Nursery,72944,16048,2309,0.22
+Northern Ireland,Primary School,179876,39573,57674,0.22
+Northern Ireland,Secondary School,121122,26647,37646,0.22
+Northern Ireland,Adult,5240409,890870,0,0.17
+Scotland,Infant,99697,20936,0,0.21
+Scotland,Nursery,164109,34463,90126,0.21
+Scotland,Primary School,418842,87957,217628,0.21
+Scotland,Secondary School,290025,60905,94260,0.21
+Scotland,Adult,4553677,774125,0,0.17
+South East,Infant,191472,28721,0,0.15
+South East,Nursery,320117,48018,772,0.15
+South East,Primary School,813536,122030,242226,0.15
+South East,Secondary School,554834,83225,150638,0.15
+South East,Adult,2985624,417987,0,0.14
+South West,Infant,106168,16987,0,0.16
+South West,Nursery,178364,28538,910,0.16
+South West,Primary School,456726,73076,147089,0.16
+South West,Secondary School,312650,50024,102911,0.16
+South West,Adult,1626855,227760,0,0.14
+Wales,Infant,60238,13252,0,0.22
+Wales,Nursery,101103,22243,2345,0.22
+Wales,Primary School,256644,56462,58562,0.22
+Wales,Secondary School,178607,39294,38226,0.22
+Wales,Adult,4869408,973882,0,0.2
+West Midlands,Infant,132588,38451,0,0.29
+West Midlands,Nursery,216669,62834,1331,0.29
+West Midlands,Primary School,529737,153624,258688,0.29
+West Midlands,Secondary School,360637,104585,174835,0.29
+West Midlands,Adult,655879,137735,0,0.21
+Yorkshire & The Humber,Infant,117440,32883,0,0.28
+Yorkshire & The Humber,Nursery,194077,54342,460,0.28
+Yorkshire & The Humber,Primary School,478245,133909,216853,0.28
+Yorkshire & The Humber,Secondary School,323946,90705,147956,0.28
+Yorkshire & The Humber,Adult,2055878,431734,0,0.21
