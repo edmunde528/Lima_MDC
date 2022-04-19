@@ -1,0 +1,50 @@
+Region,Supermarket,Count
+East,Asda,45
+East,Morrisons,42
+East,Sainsbury's,87
+East,Tesco,291
+East Midlands,Asda,28
+East Midlands,Morrisons,23
+East Midlands,Sainsbury's,59
+East Midlands,Tesco,118
+Isle of Man,Tesco,1
+London,Asda,44
+London,Morrisons,28
+London,Sainsbury's,308
+London,Tesco,486
+North East,Asda,37
+North East,Morrisons,22
+North East,Sainsbury's,58
+North East,Tesco,60
+North West,Asda,85
+North West,Morrisons,52
+North West,Sainsbury's,65
+North West,Tesco,233
+Northern Ireland,Asda,16
+Northern Ireland,Morrisons,5
+Northern Ireland,Sainsbury's,12
+Northern Ireland,Tesco,54
+Scotland,Asda,63
+Scotland,Morrisons,61
+Scotland,Sainsbury's,78
+Scotland,Tesco,215
+South East,Asda,58
+South East,Morrisons,46
+South East,Sainsbury's,168
+South East,Tesco,430
+South West,Asda,41
+South West,Morrisons,44
+South West,Sainsbury's,94
+South West,Tesco,278
+Wales,Asda,32
+Wales,Morrisons,30
+Wales,Sainsbury's,34
+Wales,Tesco,128
+West Midlands,Asda,93
+West Midlands,Morrisons,70
+West Midlands,Sainsbury's,121
+West Midlands,Tesco,264
+Yorkshire & Humber,Morrisons,66
+Yorkshire & The Humber,Asda,89
+Yorkshire & The Humber,Sainsbury's,132
+Yorkshire & The Humber,Tesco,221
