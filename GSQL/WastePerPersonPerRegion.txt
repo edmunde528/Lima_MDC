@@ -1,0 +1,27 @@
+CREATE QUERY Waste_Per_Person_Per_Region(/* Parameters here */) FOR GRAPH LimaMDC { 
+
+# calculates the supermarket waste produced per region per year (tonnes) and the tonnes of waste per person 
+  
+SumAccum<INT> @n_people;
+SumAccum<FLOAT> @n_waste;
+SumAccum<FLOAT> @n_waste_pp;
+
+  start = {Regions.*};
+  
+  Region_Data = SELECT ag
+  FROM start:s - (age_demographics:ad) - AgeGroup:ag,
+  ACCUM 
+  s.@n_people += ad.NoRLIPeople;
+  
+  SM_Waste = SELECT s
+  FROM start:s - (food_waste:fw) - Supermarkets:sm
+  ACCUM 
+  s.@n_waste += fw.Waste_in_Tonnes
+  POST-ACCUM
+  s.@n_waste_pp = s.@n_waste / s.@n_people;
+  
+  #s.@n_waste = fw.WasteVolume / s.@n_people;
+  
+  PRINT SM_Waste[SM_Waste.@n_waste_pp as Waste_Available_per_Person_In_Tonnes, SM_Waste.@n_waste as Waste_Produced_In_Tonnes]; 
+
+}

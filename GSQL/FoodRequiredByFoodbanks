@@ -1,0 +1,26 @@
+CREATE QUERY Food_Required_By_Foodbanks_Per_Region(/* Parameters here */) FOR GRAPH LimaMDC { 
+  
+# calculates the average number of calories required per foodbank in a region
+
+  SumAccum<INT> @n_calories;
+  MapAccum<VERTEX, FLOAT> @calories_per_age;
+  
+  Start = {Regions.*};
+  
+  FRP = SELECT s from Start:s - (age_demographics:ad) - AgeGroup:ag 
+  ACCUM
+  s.@calories_per_age += (ag -> ag.Avg_Calorie_Intake * ad.NoRLIPeople),
+  s.@n_calories += ag.Avg_Calorie_Intake * ad.NoRLIPeople;
+  
+  SumAccum<INT> @n_foodbanks;  #stores number of foodbanks per region
+  SumAccum<FLOAT> @calories_per_fb;  #stores calories required per food bank;
+  
+  RegionData = SELECT s
+               FROM Start:s -(food_bank_data:e)- FoodBanks:tgt,
+               ACCUM s.@n_foodbanks += 1
+               POST-ACCUM s.@calories_per_fb = s.@n_calories / s.@n_foodbanks;
+  
+  
+  PRINT Start[Start.@n_calories AS Total_Calories_Needed, Start.@n_foodbanks AS Number_Of_Foodbanks, Start.@calories_per_fb AS Calories_Needed_Per_Foodbank]; 
+
+}

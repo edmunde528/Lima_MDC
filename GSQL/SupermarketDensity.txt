@@ -1,0 +1,18 @@
+CREATE QUERY SupermarketDensity(/* Parameters here */) FOR GRAPH LimaMDC { 
+ 
+# calculates the density of supermarkets per square km of area per region   
+  
+ MapAccum<VERTEX, FLOAT> @density;
+ MapAccum<VERTEX, INT> @total;
+
+  start = {Regions.*};
+  result = SELECT s FROM start:s - (store_counts:sc) - Supermarkets:sm
+  ACCUM
+  IF s.Area>0 THEN
+  s.@density += (sm -> sc.StoreCount / s.Area),
+  s.@total += (sm -> sc.StoreCount)
+  END;
+  
+  PRINT result[result.@density as Stores_per_Square_Kilometer, result.@total as Total_Stores]; 
+ 
+}
