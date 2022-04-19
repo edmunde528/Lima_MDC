@@ -1,0 +1,19 @@
+CREATE QUERY FoodbankDensity(/* Parameters here */) FOR GRAPH LimaMDC { 
+
+# calculates the density of foodbanks per region
+
+SumAccum<INT> @n_foodbanks;
+SumAccum<FLOAT> @density;
+
+start = {Regions.*};
+result = SELECT s FROM start:s - (food_bank_data:fbd) - FoodBanks:fb
+ACCUM
+s.@n_foodbanks += 1
+POST-ACCUM
+IF s.Area>0 THEN
+s.@density = s.@n_foodbanks / s.Area
+END;
+  
+  
+  PRINT result[result.@density AS Foodbanks_per_square_kilometer, result.@n_foodbanks AS Number_Of_Foodbanks]; 
+}

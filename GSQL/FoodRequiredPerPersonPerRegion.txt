@@ -1,0 +1,17 @@
+CREATE QUERY Food_Required_Per_Person_Per_Region(/* Parameters here */) FOR GRAPH LimaMDC { 
+  
+# calculates the total number of calories required in a day, per region and broken down into age groups
+ 
+  SumAccum<INT> @n_calories;
+  MapAccum<VERTEX, FLOAT> @calories_per_age;
+  
+  Start = {Regions.*};
+  
+  FRP = SELECT s from Start:s - (age_demographics:ad) - AgeGroup:ag 
+  ACCUM
+  s.@calories_per_age += (ag -> ag.Avg_Calorie_Intake * ad.NoRLIPeople),
+  s.@n_calories += ag.Avg_Calorie_Intake * ad.NoRLIPeople;
+  
+  
+  PRINT Start[Start.@n_calories AS Total_Calories_Needed, Start.@calories_per_age AS Total_Calories_Needed_By_Age_Group]; 
+}

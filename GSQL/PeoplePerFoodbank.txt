@@ -1,0 +1,24 @@
+CREATE QUERY PeoplePerFoodBank() FOR GRAPH LimaMDC { 
+
+# calculates the number of people per food bank on a regional level 
+  
+  SumAccum<INT> @n_people;  #stores number of people per region
+  SumAccum<INT> @n_foodbanks;  #stores number of foodbanks per region
+  SumAccum<FLOAT> @ppfb;  #stores people per food bank;
+  SumAccum<INT> @@totalpeople;
+  
+  Start = {Regions.*};
+  
+  RegionData = SELECT tgt
+               FROM Start:src -(age_demographics:e)- :tgt,
+               ACCUM src.@n_people += e.NoRLIPeople,
+                     @@totalpeople += e.NoRLIPeople;
+  
+  RegionData = SELECT src
+               FROM Start:src -(food_bank_data:e)- FoodBanks:tgt,
+               ACCUM src.@n_foodbanks += 1
+               POST-ACCUM src.@ppfb = (src.@n_people / src.@n_foodbanks);
+  
+  PRINT RegionData[RegionData.@ppfb AS People_per_Foodbank, RegionData.@n_people as Total_People, RegionData.@n_foodbanks as Total_Foodbanks], @@totalpeople AS Total_People_In_Need; 
+
+}
