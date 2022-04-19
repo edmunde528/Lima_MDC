@@ -1,0 +1,56 @@
+Region,Age Group,Total,RLI Total,Poverty Rate
+East,Infant,136248,23162,0.17
+East,Nursery,226289,38469,0.17
+East,Primary School,556221,94558,0.17
+East,Secondary School,369766,62860,0.17
+East,Adult,7928741,1110024,0.14
+East Midlands,Infant,98500,19700,0.2
+East Midlands,Nursery,165134,33027,0.2
+East Midlands,Primary School,412323,82465,0.2
+East Midlands,Secondary School,279985,55997,0.2
+East Midlands,Adult,8046546,1367913,0.17
+London,Infant,232224,48767,0.21
+London,Nursery,363575,76351,0.21
+London,Primary School,832055,174732,0.21
+London,Secondary School,522987,109827,0.21
+London,Adult,5416615,866658,0.16
+North East,Infant,52193,15658,0.3
+North East,Nursery,86585,25976,0.3
+North East,Primary School,217969,65391,0.3
+North East,Secondary School,149025,44708,0.3
+North East,Adult,5763389,1210312,0.21
+North West,Infant,160556,40139,0.25
+North West,Nursery,261248,65312,0.25
+North West,Primary School,638606,159652,0.25
+North West,Secondary School,431568,107892,0.25
+North West,Adult,4469951,849291,0.19
+Northern Ireland,Infant,44792,9854,0.22
+Northern Ireland,Nursery,72944,16048,0.22
+Northern Ireland,Primary School,179876,39573,0.22
+Northern Ireland,Secondary School,121122,26647,0.22
+Northern Ireland,Adult,5240409,890870,0.17
+Scotland,Infant,99697,20936,0.21
+Scotland,Nursery,164109,34463,0.21
+Scotland,Primary School,418842,87957,0.21
+Scotland,Secondary School,290025,60905,0.21
+Scotland,Adult,4553677,774125,0.17
+South East,Infant,191472,28721,0.15
+South East,Nursery,320117,48018,0.15
+South East,Primary School,813536,122030,0.15
+South East,Secondary School,554834,83225,0.15
+South East,Adult,2985624,417987,0.14
+South West,Infant,106168,16987,0.16
+South West,Nursery,178364,28538,0.16
+South West,Primary School,456726,73076,0.16
+South West,Secondary School,312650,50024,0.16
+South West,Adult,1626855,227760,0.14
+Wales,Infant,60238,13252,0.22
+Wales,Nursery,101103,22243,0.22
+Wales,Primary School,256644,56462,0.22
+Wales,Secondary School,178607,39294,0.22
+Wales,Adult,4869408,973882,0.2
+West Midlands,Infant,132588,38451,0.29
+West Midlands,Nursery,216669,62834,0.29
+West Midlands,Primary School,529737,153624,0.29
+West Midlands,Secondary School,360637,104585,0.29
+West Midlands,Adult,655879,137735,0.21
