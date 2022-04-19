@@ -1,0 +1,393 @@
+Aberdeen
+Abergavenny
+Aberystwyth
+Aldershot
+Alloa
+Alness
+Alnwick
+Arbroath
+Armthorpe
+Arnold
+Ashton-under-Lyne
+Audenshaw
+Aylesbury
+Aylesford
+Ayr
+Bacup
+Banbury
+Banchory
+Bangor-Gwynedd
+Bargoed
+Barking-Dagenham
+Barnard Castle
+Barry
+Basingstoke
+Bath
+Bathgate
+Bearsden
+Beccles
+Bedford
+Belper
+Berwick-upon-Tweed
+Beverley
+Bexley
+Bideford
+Biggar
+Birmingham
+Bishop Auckland
+Blackburn
+Blackpool
+Blandford Forum
+Blaydon
+Bodmin
+Bognor Regis
+Bolton
+Bonnyrigg
+Borehamwood
+Boroughbridge
+Bracknell
+Bradford
+Brecon
+Brent
+Brentford
+Bridgwater
+Bridlington
+Bridport
+Brighton
+Bristol
+Bromsgrove
+Bude
+Burntwood
+Burton Upon Trent
+Bury
+Buxton
+Caernarfon
+Caerphilly
+Cambridge
+Cambuslang
+Camden
+Cannock
+Canterbury
+Canvey Island
+Cardiff
+Carlisle
+Carmarthen
+Carterton
+Castleford
+Caterham-Warlingham
+Chadderton
+Chapel-en-Le-Frith
+Chatham
+Chelmsford
+Cheltenham
+Chester
+Chester-le-Street
+Chesterfield
+Chippenham
+Chiseldon
+Chorley
+Clacton-on-Sea
+Clarkston
+Clifton
+Coalville
+Coatbridge
+Colwyn Bay
+Congleton
+Connah's Quay
+Consett
+Corby
+Coventry
+Cowdenbeath
+Crawley
+Crediton
+Crewe
+Crowborough
+Croydon
+Cwmbran
+Dalkeith
+Darlington
+Denbigh
+Denton Derbyshire
+Derby
+Devizes
+Diss
+Doncaster
+Dover
+Downham Market
+Droitwich
+Dukinfield
+Dumbarton
+Dumfries
+Dundee
+Dunoon
+Dunstable
+Ealing
+East Dereham
+East Kilbride
+Eastbourne
+Ebbw Vale
+Edinburgh
+Elland
+Ellesmere Port
+Enfield
+Erskine
+Evesham
+Exeter
+Failsworth
+Fakenham
+Falkirk
+Farnborough
+Faversham
+Felixstowe
+Fleet
+Fort William
+Frodsham
+Gainsborough
+Glasgow
+Glastonbury
+Glenrothes
+Gloucester
+Golborne
+Goole
+Gosport
+Grantham
+Gravesend
+Grays
+Great Harwood
+Great Lumley
+Great Malvern
+Great Yarmouth
+Greenock
+Grimsby
+Guisborough
+Guiseley
+Hadleigh
+Hadley
+Halifax
+Hamilton
+Haringey
+Harrogate
+Harrow
+Hartlepool
+Harwich
+Hastings
+Haverfordwest
+Hawick
+Heckmondwike
+Hereford
+Herne Bay
+Heywood Manchester
+High Wycombe
+Hillingdon
+Hinckley
+Hoddesdon
+Holyhead
+Horsforth
+Hoylake
+Huddersfield
+Hull
+Ilkeston
+Inverness
+Inverurie
+Ipswich
+Jarrow
+Johnstone
+Keighley
+Kendal
+Kettering
+Kidderminster
+Killamarsh
+Kilmarnock
+King's Lynn
+Kingsbridge
+Kingswinford
+Kirkby in Ashfield
+Kirkcaldy
+Kirkham
+Knottingley
+Knowle
+Lanark
+Largs
+Leeds
+Leek
+Leicester
+Leighton Buzzard
+Leominster
+Letchworth
+Leyland
+Lichfield
+Lincoln
+Liskeard
+Littlehampton
+Liverpool
+Livingston
+Llanelli
+Loans
+London
+Loughborough
+Loughton
+Louth
+Lowestoft
+Lutterworth
+Maghull
+Maidstone
+Maldon
+Malton
+Manchester
+Mansfield
+Margate
+Market Drayton
+Meltham
+Melton Mowbray
+Middlesbrough
+Middlewich
+Milton Keynes
+Minehead
+Mitcham
+Morecambe
+Morpeth
+Nailsworth
+Nantwich
+Neath
+Nelson
+New Milton
+Newark-on-Trent
+Newarthill
+Newcastle-under-Lyme
+Newcastle upon Tyne
+Newport
+Newquay
+Newtown Powys
+North Ferriby
+Northampton
+Norwich
+Nottingham
+Ormskirk
+Orpington
+Oswestry
+Oxted
+Paignton
+Paisley
+Papworth Everard
+Penrith
+Penzance
+Perth
+Peterborough
+Peterhead
+Plymouth
+Pontefract
+Pontypridd
+Port Talbot
+Portsmouth
+Poynton
+Preston
+Queenborough
+Radcliffe on Trent
+Reading
+Redcar
+Redditch
+Redruth
+Reigate
+Renfrew
+Retford
+Rhyl
+Ripon
+Risca
+Rochdale
+Ross-on-Wye
+Rotherham
+Rothwell
+Royal Leamington Spa
+Royston
+Rugeley
+Sandown
+Scarborough
+Scunthorpe
+Seaford
+Selby
+Shanklin
+Sheffield
+Shrewsbury
+Sidcup
+Sittingbourne
+Skegness
+Skipton
+Solihull
+South Shields
+Southampton
+Southend-on-Sea
+Southport
+Spalding
+St Albans
+St Andrews
+St Helens
+Stamford
+Stanford Le Hope
+Stevenston
+Stirling
+Stockport
+Stoke-on-Trent
+Stone Staffordshire
+Stranraer
+Stratford-upon-Avon
+Stretford
+Strood
+Sunderland
+Sutton
+Swadlincote
+Swansea
+Swindon
+Tamworth
+Taunton
+Tavistock
+Teignmouth
+Telford
+Tewkesbury
+Thornton-Cleveleys
+Thurcroft
+Tiverton Devon
+Todmorden
+Totnes
+Tynemouth
+Verwood
+Wakefield
+Wallasey
+Walsall
+Waltham Forest
+Wandsworth
+Warminster
+Warrington
+Waterlooville
+Watford
+Wath upon Dearne
+Wednesbury
+Welling
+Wellingborough
+Wells
+Welshpool
+Welwyn Garden City
+West Bromwich
+Weston-Super-Mare
+Westwood
+Wetherby
+Weybridge
+Whitefield
+Whitehaven
+Whitley Bay
+Widnes
+Wigan
+Wincanton
+Winsford
+Wisbech
+Witham
+Woking
+Wokingham
+Wolverhampton
+Workington
+Worksop
+Worsbrough
+Worthing
+Wrexham
+Yate
+Yeovil
+York
