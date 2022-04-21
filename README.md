@@ -22,6 +22,9 @@ A significant investment would also be required to allow for the food-waste to b
 The graph solution illustrates the food requirements of each region as well as the corresponding supermarket waste to highlight which areas have the capability to immediately improve their food security and which areas don’t. 
 Further collection of data, particularly regarding food waste from other large supermarkets, should be considered to augment the system in order to make calculations more accurate which would make the re-distribution process more impactful. 
 
+# Data
+All of our data used and our pipelines for transforming this data are in this repository. A significant amount of our data is from Government databases and we have used supermarket annual reports to collate individual supermaket data. 
+
 ## Installation
 There are two files in this repository containing zipped and unzipped export solution of this graph solution. 
 
